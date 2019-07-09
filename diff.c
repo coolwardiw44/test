@@ -9,5 +9,6 @@ int main()
 	scanf("%d%d",&x,&y);
 	diff= DIFF(x,y);
 	(diff>0)?(printf("x is larger")):(printf("y is larger"));
+printf("hai\n");
 	return 0;
 }
