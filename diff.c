@@ -1,5 +1,6 @@
 #include <stdio.h>
-#define DIFF(a,b) ((a)-(b))
+//#define DIFF(a,b) ((a)-(b))
+#include "header.h"
 
 int main()
 {
@@ -9,6 +10,5 @@ int main()
 	scanf("%d%d",&x,&y);
 	diff= DIFF(x,y);
 	(diff>0)?(printf("x is larger")):(printf("y is larger"));
-printf("hai\n");
 	return 0;
 }
