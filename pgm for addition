@@ -1,6 +1,11 @@
 include <stdio.h>
+void main()
+{
+printf("addition pgm\n");
+add();
+}
 
-int main()
+int add()
 {
 return a+b;
 }
